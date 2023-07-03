@@ -10,12 +10,13 @@
 		"target": "es2020",
 		"lib": [ "es2020", "dom" ],
 		"typeRoots": [],
-		"types": ["jquery"],
+		"types": [],
 		"baseUrl": "."
 	},
 	"include": [
 		"./src/"
 	],
 	"exclude": [
+		"node_modules"
 	]
 } 
